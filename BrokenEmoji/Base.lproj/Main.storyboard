@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="15f-xG-1ve"/>
+                        <viewControllerLayoutGuide type="bottom" id="cz8-DD-1lH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JS5-24-pUM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9bG-iZ-78a">
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8bC-Xf-vdC">
+                                        <subviews>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWq-ZN-Fxr">
+                                                <color key="backgroundColor" red="0.18823529410000001" green="0.82745098039999998" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="R4F-Ko-OFM">
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="150" id="MDW-Bo-vhu"/>
+                                                </constraints>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iR0-Et-tne">
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="Gnl-oA-oGJ"/>
+                                                </constraints>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PRE-Xp-pOi" customClass="TextKitLabel">
+                                                <color key="backgroundColor" red="0.18823529410000001" green="0.82745098039999998" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="PRE-Xp-pOi" secondAttribute="height" multiplier="1:1" placeholder="YES" id="KB9-B3-I32"/>
+                                                    <constraint firstAttribute="width" constant="30" placeholder="YES" id="Qwn-6n-njG"/>
+                                                </constraints>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UILabel:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Imz-tt-2gH">
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UITextField:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IyN-jX-akj">
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TextKitLabel:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TXX-yc-Cff">
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Update all labels: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ePQ-q1-vkI">
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7n2-xi-psG">
+                                                <state key="normal" title="Workaround"/>
+                                                <connections>
+                                                    <action selector="workaroundButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g6h-M8-Odi"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QI6-m6-LY7">
+                                                <state key="normal" title="Break"/>
+                                                <connections>
+                                                    <action selector="breakTextFieldTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fVp-sn-y8F"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="7n2-xi-psG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1zg-cK-HZ7"/>
+                                            <constraint firstAttribute="bottom" secondItem="iR0-Et-tne" secondAttribute="bottom" constant="20" id="2Dj-QO-iKc"/>
+                                            <constraint firstItem="PRE-Xp-pOi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4GT-5F-bSs"/>
+                                            <constraint firstItem="PRE-Xp-pOi" firstAttribute="top" secondItem="R4F-Ko-OFM" secondAttribute="bottom" constant="20" id="5pL-px-s1J"/>
+                                            <constraint firstItem="yWq-ZN-Fxr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="6Uw-u8-2vp"/>
+                                            <constraint firstItem="R4F-Ko-OFM" firstAttribute="leading" secondItem="IyN-jX-akj" secondAttribute="trailing" constant="10" id="BEJ-tF-Hm6"/>
+                                            <constraint firstItem="iR0-Et-tne" firstAttribute="top" secondItem="ePQ-q1-vkI" secondAttribute="bottom" constant="8" id="Bf1-DT-M9w"/>
+                                            <constraint firstItem="R4F-Ko-OFM" firstAttribute="centerY" secondItem="IyN-jX-akj" secondAttribute="centerY" id="D2u-D3-6Qh"/>
+                                            <constraint firstItem="R4F-Ko-OFM" firstAttribute="top" secondItem="yWq-ZN-Fxr" secondAttribute="bottom" constant="20" id="DXG-Wx-HmE"/>
+                                            <constraint firstItem="QI6-m6-LY7" firstAttribute="top" secondItem="7n2-xi-psG" secondAttribute="bottom" constant="8" id="JzZ-b4-KZH"/>
+                                            <constraint firstItem="yWq-ZN-Fxr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RKR-rh-lEy"/>
+                                            <constraint firstItem="iR0-Et-tne" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WtF-mN-fFY"/>
+                                            <constraint firstItem="yWq-ZN-Fxr" firstAttribute="centerY" secondItem="Imz-tt-2gH" secondAttribute="centerY" id="YLD-39-pZ9"/>
+                                            <constraint firstItem="yWq-ZN-Fxr" firstAttribute="leading" secondItem="Imz-tt-2gH" secondAttribute="trailing" constant="10" id="brX-Qo-An8"/>
+                                            <constraint firstItem="ePQ-q1-vkI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e9g-PI-ry6"/>
+                                            <constraint firstItem="QI6-m6-LY7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hgR-Am-8TD"/>
+                                            <constraint firstItem="7n2-xi-psG" firstAttribute="top" secondItem="PRE-Xp-pOi" secondAttribute="bottom" constant="35" id="lDn-XO-6kR"/>
+                                            <constraint firstItem="R4F-Ko-OFM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="orM-1s-0pR"/>
+                                            <constraint firstItem="PRE-Xp-pOi" firstAttribute="leading" secondItem="TXX-yc-Cff" secondAttribute="trailing" constant="10" id="usK-3O-bsL"/>
+                                            <constraint firstItem="PRE-Xp-pOi" firstAttribute="centerY" secondItem="TXX-yc-Cff" secondAttribute="centerY" id="zCP-WO-Cje"/>
+                                        </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="pgu-eL-hlh" appends="YES" id="0Jd-Xy-dJZ"/>
+                                        </connections>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="7lC-2L-REW"/>
+                                    <constraint firstItem="8bC-Xf-vdC" firstAttribute="top" secondItem="9bG-iZ-78a" secondAttribute="top" id="ARe-TW-BoE"/>
+                                    <constraint firstItem="8bC-Xf-vdC" firstAttribute="width" secondItem="9bG-iZ-78a" secondAttribute="width" id="W5r-kd-YLc"/>
+                                    <constraint firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="gfy-Xp-fbf"/>
+                                    <constraint firstItem="8bC-Xf-vdC" firstAttribute="leading" secondItem="9bG-iZ-78a" secondAttribute="leading" id="vGV-wd-nde"/>
+                                    <constraint firstItem="8bC-Xf-vdC" firstAttribute="height" secondItem="9bG-iZ-78a" secondAttribute="height" id="zDq-2x-mxS"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9bG-iZ-78a" firstAttribute="leading" secondItem="JS5-24-pUM" secondAttribute="leading" id="7Sb-0e-ujv"/>
+                            <constraint firstAttribute="trailing" secondItem="9bG-iZ-78a" secondAttribute="trailing" id="Lh9-ob-COK"/>
+                            <constraint firstItem="9bG-iZ-78a" firstAttribute="top" secondItem="JS5-24-pUM" secondAttribute="top" id="fBV-db-8Dd"/>
+                            <constraint firstAttribute="bottom" secondItem="9bG-iZ-78a" secondAttribute="bottom" id="jMi-jn-t2W"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="breakButton" destination="QI6-m6-LY7" id="jnu-yw-95b"/>
+                        <outlet property="mainInputField" destination="iR0-Et-tne" id="6Ge-Co-Z3F"/>
+                        <outlet property="myLabel" destination="yWq-ZN-Fxr" id="Zay-AY-0VJ"/>
+                        <outlet property="myTextField" destination="R4F-Ko-OFM" id="xgP-ec-Ymg"/>
+                        <outlet property="myTextKitLabel" destination="PRE-Xp-pOi" id="FkW-K0-I8t"/>
+                        <outlet property="scrollView" destination="9bG-iZ-78a" id="cmk-td-4V2"/>
+                        <outlet property="workaroundButton" destination="7n2-xi-psG" id="gqT-2p-mJE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="pgu-eL-hlh">
+                    <connections>
+                        <action selector="backgroundTapped:" destination="BYZ-38-t0r" id="bXn-nn-v4a"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+</document>

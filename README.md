@@ -6,6 +6,9 @@
 ### iOS 9.3
 <img width="375" alt="clip-9 3" src="https://cloud.githubusercontent.com/assets/987706/18972178/fe32c6e8-864c-11e6-8197-9c4bd025b697.png">
 
+**We've already opened a bug with Apple. See the following for more info on the bug:**
+* https://openradar.appspot.com/radar?id=4998540401049600
+* https://github.com/facebook/AsyncDisplayKit/issues/2304
 
 ### Current Workaround
 ```objective-c

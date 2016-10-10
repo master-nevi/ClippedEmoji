@@ -23,3 +23,6 @@
     }
     
 ```
+### Update from Apple
+**Apple has acknowledged the bug, however could not recommend a workaround at this time. 😞**
+
